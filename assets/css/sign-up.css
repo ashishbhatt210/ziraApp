@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+
+.sign-in{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(255,182,71);
+}
+
+.sign-up{
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+}
+
+.sign-in-text1{
+    margin-top: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "GothamPro Medium",serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.sign-in-text2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "GothamPro Medium",serif;
+    font-weight: 600;
+    font-size: larger
+}
+
+.sign-in-btn{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    width: 30vh;
+    height: 7vh;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-family: "GothamPro Medium",serif;
+    font-size: x-large;
+    border: 2px solid black;
+}
+
+.sign-up-btn:hover, .sign-in-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255,182,71);
+    cursor: pointer;
+}
+
+.sign-up-email, .sign-up-password, .sign-up-name{
+    width: 60vh;
+    height: 7vh;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.sign-up-btn{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 30vh;
+    height: 7vh;
+    border-radius: 20px;
+    background-color: rgb(255,182,71);
+    color: black;
+    font-weight: bolder;
+    font-family: "GothamPro Medium",serif;
+    font-size: x-large;
+    text-decoration: solid;
+    border: 2px solid black;
+}
+
+.sign-up-text{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    color: #202121;
+    font-family: "GothamPro Medium",serif;
+    font-size: 3.5rem;
+    letter-spacing: 0;
+    line-height: 64px;
+    margin: 0 0 16px;
+    text-align: center;
+}
+
+.input-1, .input-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-name, .sign-up-email, .sign-up-password, .sign-up-confirm-password{
+    width: 60vh;
+    height: 7vh;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.logo{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 30%;
+    height: 30%;
+    border-radius: 8px;
+}
