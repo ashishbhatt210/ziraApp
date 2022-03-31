@@ -1,5 +1,6 @@
 Hey Guys,
 This is ZIRA Tickets App :
+
 • I've Used JavaScript, HTML and CSS for UI and adding functionalities to App.
 • Different tasks in the form of tickets can be added/removed.
 • Priority of tasks can be set by assigning dierent colors to tickets.
